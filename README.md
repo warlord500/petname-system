@@ -11,17 +11,18 @@ http://www.researchgate.net/publication/221426438_Security_Usability_of_Petname_
 
 
 a simple overview of the concept
-in the current system of the web thier exists dns which attempts to beat zookoo's triangle.
+in the current system of the web  exists dns which attempts to beat zookoo's triangle.
 
 ![zookoo triangle:global,securely unique,human-memorable](http://www.skyhunter.com/marcs/petnames/zooko-triangle.gif)
 
 the problem with dns is  it centralized allowing for things like squatting, and censorship to exist.
 the petname system attempts to solve zooko's triangle and dns issues.
-instead of a single name for entities the systems uses 3
-* keys - global and securely unique. many times the hash of a public key
-* nicknames suggested names for various entities. - extremely forgable and mimicable.(entirely optional for a site)
-* petnames, a unique name stored entirely locally that you can write.
-
+instead of a single name for entities the systems uses 3 different names with unique security properities.
+* keys - global and securely unique. many times the hash of a public key these keys are very hard to remember.
+* nicknames/suggested names for various entities. - extremely forgable and mimicable.(entirely optional for a site).
+  * 
+* petnames, a unique name stored entirely locally that you can remeber.
+    * they represent the key locally on this computer.
 
 security issues with petnames
 
